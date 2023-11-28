@@ -1,0 +1,134 @@
+body {
+    background-color: #b97d10;
+    font-family: 'Bangers', cursive;
+    font-family: 'Cagliostro', sans-serif;
+    
+}
+.main {
+    width: 80%;
+    margin: auto;
+    background-color: #fbca03;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+   
+    
+}
+#profile>img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 5px solid #aa0505;
+}
+#name {
+    font-size: 130px;
+    margin-top: 50px;
+    color: #6a0c0b;
+    font-family: 'Bangers', cursive;
+    border: #aa0505;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.leftbox {
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+}
+#heading {
+    font-size: 35px;
+    color: #6a0c0b;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+p {
+    font-size: 18px;
+    color: #aa0505;
+}
+.rightbox {
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+}
+.footer{
+    width: 100%;
+}
+
+@media all and (min-width:320px) and (max-width: 570px) {
+    .main {
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .leftbox {
+        width: 50%;
+        text-align: left;
+        padding: 20px;
+    }
+
+    #profile>img {
+        height: 90px;
+        width: 90px;
+
+    }
+
+    #name {
+        font-size: 30px;
+        margin-top: 20px;
+
+    }
+
+    #heading {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+    .footer > p{
+        width: 90%;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .rightbox {
+        width: 50%;
+        text-align: left;
+        padding: 20px;
+    }
+}
+
+@media all and (min-width:571px) and (max-width: 1000px) {
+    body {
+        width: 100%;
+    }
+
+    #profile>img {
+        height: 200px;
+        width: 200px;
+    }
+
+    #name {
+        font-size: 50px;
+        margin-top: 40px;
+    }
+
+    #heading {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .rightbox {
+        width: 50%;
+        text-align: left;
+        padding: 20px;
+    }
+
+}
